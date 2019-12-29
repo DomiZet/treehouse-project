@@ -1,0 +1,316 @@
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: linen;
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    line-height: 1.5;
+}
+
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: #222;
+    font-size: 40px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+
+
+
+/* --------------------HEADER SECTION-------------------- */
+
+
+#header__section {
+    height: 115px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav__bar {
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.nav__link a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+    cursor: default;
+    font-size: 14px;
+}
+
+
+.nav__link a:hover {
+    color: #2b4242;
+} 
+
+
+
+/* --------------------PORTFOLIO SECTION-------------------- */
+
+
+#portfolio__section {
+    height: 530px;
+    background-image: url(./img/portfolio__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.portfolio__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+
+.portfolio__header {
+    width: 570px;
+    text-align: center;
+}
+
+
+.portfolio__header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.portfolio__header p {
+    font-size: 20px;
+}
+
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: #7cc576;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+button:hover {
+    background-color: #fff;
+    color: #222;
+    font-weight: bold;
+}
+
+
+
+/* --------------------SERVICES SECTION-------------------- */
+
+
+.services__section {
+    height: 530px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+
+.services__bigwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.services__wrap {
+    width: 1000px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.services__box h1 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #222;
+    font-weight: bold;
+}
+
+
+.services__box {
+    width: 290px;
+    height: 180px;
+}
+
+
+.title__wrap p {
+    font-size: 20px;
+}
+
+
+
+/* --------------------MORE SECTION-------------------- */
+
+
+#more__section {
+    height: 615px;
+    background-image: url(./img/more__background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.more__wrap {
+    width: 700px;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.more__wrap span {
+    color: #7cc576;
+}
+
+
+.more__wrap h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.more_list__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.more__list__option {
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+  display: flex;
+  align-items: center;
+}
+
+
+.more__list__option img {
+    width: 30px;
+    height: 30px;
+    color: rgb(204, 204, 204);
+    padding-right: 15px;
+}
+
+.more__list__wrap p {
+    font-size: 16px;
+}
+  
+.more__list__option p {
+    text-transform: capitalize;
+}
+
+
+
+/* --------------------PROJECT SECTION-------------------- */
+
+
+#project__section {
+    height: 825px;
+}
+
+
+
+
+
+/* --------------------CULTURE SECTION-------------------- */
+
+
+#culture__section {
+    height: 560px;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+/* --------------------FEEDBACK SECTION-------------------- */
+
+#feedback__section {
+    height: 800px;
+}
+
+
+
+
+/* --------------------CONTACT SECTION-------------------- */
+
+
+#contact__section {
+    height: 250px;
+    background-color: #7cc576;
+}
+
+
+
+
+
+/* --------------------PARTNERS SECTION-------------------- */
+
+
+#partners__section {
+    height: 165px;
+}
+
+
+
+
+
+/* --------------------FOOTER SECTION-------------------- */
+
+
+#footer__section {
+    height: 365px;
+    background-color: #222222;
+}
+
+
+
+
+
+/* --------------------LINKS SECTION-------------------- */
+
+
+#links__section {
+    height: 100px;
+}
